@@ -2,19 +2,19 @@
     "Navegacion" : [
         {
             "title" : "Home",
-            "url" : "/#Home"
+            "url" : "/hawkfort/#Home"
         },
         {
             "title" : "About",
-            "url" : "/#About"
+            "url" : "/hawkfort/#About"
         },
         {
             "title" : "Soluciones",
-            "url" : "/#Soluciones"
+            "url" : "/hawkfort/#Soluciones"
         },
         {
             "title" : "Contacto",
-            "url" : "/#Contacto"
+            "url" : "/hawkfort/#Contacto"
         }
     ],
 
