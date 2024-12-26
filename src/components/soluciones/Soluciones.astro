@@ -1,0 +1,27 @@
+---
+import CardSol from "./CardSol.astro";
+import Data from "../../data.json";
+---
+
+<br/><br /><br>
+<section class="soluciones mx-2">
+  <div class="pb-8 pt-6 flex items-center align-middle flex-col mx-2 md:mx-24">
+    <h1
+      class="md:text-6xl text-5xl font-bold mb-4 pb-4 bg-gradient-to-r from-cyan-500 via-cyan-300 to-cyan-500 text-transparent bg-clip-text"
+    >
+      Soluciones
+    </h1>
+
+    <div class="grid grid-cols-2 gap-2 md:grid-cols-2 md:gap-3 lg:gap-5 lg:grid-cols-3 mt-5">
+      {
+        Data.SolucionesItems.map((elemento) => (
+          <CardSol
+            titulo={elemento.titulo}
+            icono={elemento.icono}
+            descripcion={elemento.descripcion}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>

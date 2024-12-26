@@ -1,0 +1,66 @@
+---
+import NavBar from "../components/navegacion/NavBar.astro"
+import Home from "../components/home/Home.astro"
+
+import About from "../components/about/About.astro"
+import Soluciones from "../components/soluciones/Soluciones.astro"
+import Contacto from "../components/contacto/Contacto.astro"
+
+import Footer from "../components/footer/Footer.astro"
+---
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>HawkFort</title>
+	</head>
+	<body>
+
+		<!-- Componentes de la pagina -->
+		<NavBar />
+		<slot />
+
+		<!-- Bug en el responsive en card -->
+		<Home />
+		<slot />
+
+		<div class="inset-0 bg-gradient-to-b from-cyan-950 from-10% to-slate-700">
+			
+			<About />
+			<slot />
+			
+			<hr class="mx-24 mt-6 border-white" id="Soluciones" />
+
+			<Soluciones />
+			<slot />
+
+			<hr class="mx-24 mt-6 border-white" id="Contacto" />
+
+			<Contacto />
+			<slot />
+
+			<div>
+				<br><br>
+			</div>
+
+			<div class="hidden md:flex">
+				<br><br><br><br><br><br><br><br>
+			</div>
+
+		</div>
+
+		<Footer />
+
+	</body>
+</html>
+
+<style>
+	html {
+	  scroll-behavior: smooth;
+	}
+	body {
+	  font-family: "Roboto", sans-serif;
+	}
+</style>

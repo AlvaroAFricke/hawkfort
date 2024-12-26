@@ -1,0 +1,14 @@
+---
+interface Props {
+    texto: string;
+    icono: string;
+}
+const {texto, icono} = Astro.props;
+---
+
+<div class="flex flex-row m-0 p-0 items-center justify-start">
+  <img src={icono} alt="" class="size-16" srcset="">
+  <p class="text-xl ml-2 md:text-2xl text-left text-orange-100">
+    {texto}
+  </p>
+</div>

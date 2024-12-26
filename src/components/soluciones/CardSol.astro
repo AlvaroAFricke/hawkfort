@@ -1,0 +1,109 @@
+---
+interface Props {
+  titulo: string;
+  icono: string;
+  descripcion: string;
+}
+const { titulo, icono, descripcion } = Astro.props;
+---
+
+<div class="flip-card ring-1 rounded-lg ring-cyan-400">
+  <div class="flip-card-inner">
+    <div class="flip-card-front flex flex-col align-middle justify-center items-center">
+      <img
+        src={icono}
+        alt=""
+        srcset=""
+        class="bg-transparent size-20 md:size-28"
+      />
+      <p class="title text-lg md:text-2xl text-center mt-4 font-bold text-orange-100">{titulo}</p>
+    </div>
+    <div class="flip-card-back">
+      <p class="title text-lg md:text-2xl text-center mt-4 font-bold text-orange-300">{titulo}</p>
+      <hr class="mx-12 md:mx-24 mt-6 border-white" />
+      <p class="text-pretty px-2 md:px-4 py-2 text-lg mt-4 text-orange-100">{descripcion}</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Vista Mobil */
+  @media (max-width: 1024px) {
+    .flip-card {
+      background-color: transparent;
+      width: 160px;
+      height: 280px;
+      perspective: 1000px;
+      font-family: sans-serif;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-back {
+      transform: rotateY(180deg);
+    }
+  }
+
+  /* Vista Desktop */
+  @media (min-width: 1024px) {
+    .flip-card {
+      background-color: transparent;
+      width: 365px;
+      height: 254px;
+      perspective: 1000px;
+      font-family: sans-serif;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-back {
+      transform: rotateY(180deg);
+    }
+  }
+</style>

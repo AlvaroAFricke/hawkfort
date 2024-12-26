@@ -1,0 +1,23 @@
+---
+import CardHome from "./CardHome.astro";
+---
+
+<section id="Home" class="relative h-screen w-full">
+  <video
+    autoplay
+    loop
+    muted
+    playsinline
+    class="absolute inset-0 w-full h-full object-cover"
+  >
+    <source src="/video-HawkFort.mp4" type="video/mp4" />
+    Tu navegador no soporta el video.
+  </video>
+  <div class="absolute inset-0 bg-gradient-to-t from-cyan-950 from-5%"></div>
+
+  <!-- CARD bug en responsive -->
+  <div class="relative z-10 flex items-center justify-center h-screen">
+    <CardHome />
+  </div>
+</section>
+

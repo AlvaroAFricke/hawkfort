@@ -1,0 +1,80 @@
+{
+    "Navegacion" : [
+        {
+            "title" : "Home",
+            "url" : "/#Home"
+        },
+        {
+            "title" : "About",
+            "url" : "/#About"
+        },
+        {
+            "title" : "Soluciones",
+            "url" : "/#Soluciones"
+        },
+        {
+            "title" : "Contacto",
+            "url" : "/#Contacto"
+        }
+    ],
+
+    "About" : {
+
+        "title" : "Sobre Nosotros",
+        "descripcion": "Somos una consultora enfocada y comprometida en la anticipación, detección y protección de activos digitales"
+
+    },
+
+    "AboutItems" : [
+        {
+            "texto" : "Solida experiencia y trayectoria.",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+        },
+        {
+            "texto" : "Equipo actualizado en las últimas tecnologias.",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+        },
+        {
+            "texto" : "Protección de todo tipo de información y organización.",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+        },
+        {
+            "texto" : "Solución personalizada y a medida.",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+        }
+    ],
+
+    "SolucionesItems" : [
+        {
+            "titulo" : "Auditoría de Seguridad",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzIiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMzMgMzIiPjxnIGZpbGw9IiM3YzNhZWQiPjxwYXRoIGQ9Ik0xLjUgMzJoMjFjLjgyNyAwIDEuNS0uNjczIDEuNS0xLjVWMjNjMC0uMDEtLjAwNS0uMDE4LS4wMDYtLjAyOHEuMDg0LS4wNTEuMTY2LS4xMDVsNy45ODYgNy45ODZhLjUuNSAwIDEgMCAuNzA4LS43MDZsLTcuOTEzLTcuOTEzQTYuNDggNi40OCAwIDAgMCAyNyAxNy41YTYuNSA2LjUgMCAwIDAtMy4wMDYtNS40NzJjLjAwMS0uMDEuMDA2LS4wMTguMDA2LS4wMjhWOS41YzAtLjAxNy0uMDA4LS4wMzEtLjAwOS0uMDQ3cS0uMDA0LS4wMzMtLjAxMy0uMDY1YS41LjUgMCAwIDAtLjA5LS4xOTFjLS4wMDctLjAwOS0uMDA2LS4wMi0uMDEzLS4wMjlsLTgtOWwtLjAxLS4wMDZhLjUuNSAwIDAgMC0uMjIzLS4xMzRxLS4wMjctLjAwOC0uMDU2LS4wMTFDMTUuNTU3LjAxMiAxNS41MyAwIDE1LjUgMGgtMTRDLjY3MyAwIDAgLjY3MyAwIDEuNXYyOWMwIC44MjcuNjczIDEuNSAxLjUgMS41TTI2IDE3LjVjMCAzLjAzMy0yLjQ2OCA1LjUtNS41IDUuNVMxNSAyMC41MzMgMTUgMTcuNXMyLjQ2OC01LjUgNS41LTUuNXM1LjUgMi40NjcgNS41IDUuNU0xNiAxLjgxNUwyMi4zODcgOUgxNi41Yy0uMjIgMC0uNS0uNDItLjUtLjc1ek0xIDEuNWEuNS41IDAgMCAxIC41LS41SDE1djcuMjVjMCAuODA5LjY1NSAxLjc1IDEuNSAxLjc1SDIzdjEuNTAxQTYuNDc1IDYuNDc1IDAgMCAwIDE1LjgyMSAxM0g1LjVhLjUuNSAwIDAgMCAwIDFoOS41MzJhNi40NCA2LjQ0IDAgMCAwLTEuMDA2IDNINS41YS41LjUgMCAwIDAgMCAxaDguNTI1YTYuNDUgNi40NSAwIDAgMCAxLjAwNiAzSDUuNWEuNS41IDAgMCAwIDAgMWgxMC4yNWMuMDIxIDAgLjAzOS0uMDA5LjA2LS4wMTJhNi40OCA2LjQ4IDAgMCAwIDcuMTkgMS41MVYzMC41YS41LjUgMCAwIDEtLjUuNWgtMjFjLS4yOCAwLS41LS4yMi0uNS0uNXoiLz48cGF0aCBkPSJNNS41IDEwaDZhLjUuNSAwIDAgMCAwLTFoLTZhLjUuNSAwIDAgMCAwIDFtMCAxNmgxM2EuNS41IDAgMCAwIDAtMWgtMTNhLjUuNSAwIDAgMCAwIDEiLz48L2c+PC9zdmc+",
+            "descripcion" : "Deteccion de vulnerabilidades y riesgos futuros"
+        },
+        {
+            "titulo" : "Gestión de Vulnerabilidades",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM3YzNhZWQiIGQ9Ik0xNiAyMnYtNWgxdi0xcTAtLjgyNS41ODgtMS40MTJUMTkgMTR0MS40MTMuNTg4VDIxIDE2djFoMXY1em0yLTVoMnYtMXEwLS40MjUtLjI4OC0uNzEyVDE5IDE1dC0uNzEyLjI4OFQxOCAxNnptLTYgNXEtMy40NzUtLjg3NS01LjczOC0zLjk4OFQ0IDExLjFWNWw4LTNsOCAzdjYuMXEwIC4yNS0uMDEyLjV0LS4wMzguNXEtLjIyNS0uMDUtLjQ2Mi0uMDc1VDE5IDEycS0yLjA3NSAwLTMuNTM3IDEuNDVUMTQgMTd2NC4yNXEtLjQ3NS4yNS0uOTc1LjQzOFQxMiAyMiIvPjwvc3ZnPg==",
+            "descripcion" : "Encontrada una vulnerabilidad de gestionara adecuadamente"
+        },
+        {
+            "titulo" : "Monitoreo",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM3YzNhZWQiIGQ9Ik0xMSAxOGgydjNoLTJ6bTUgM3YySDh2LTJ6bTQtM0g0YTMuMDAzIDMuMDAzIDAgMCAxLTMtM1Y0YTMuMDAzIDMuMDAzIDAgMCAxIDMtM2gxNmEzLjAwMyAzLjAwMyAwIDAgMSAzIDN2MTFhMy4wMDMgMy4wMDMgMCAwIDEtMyAzTTQgM2ExIDEgMCAwIDAtMSAxdjExYTEgMSAwIDAgMCAxIDFoMTZhMSAxIDAgMCAwIDEtMVY0YTEgMSAwIDAgMC0xLTFaIi8+PHBhdGggZmlsbD0iIzdjM2FlZCIgZD0ibTE2IDE1bC0xLjkxNC02LjM4TDEzIDEzbC0xLjMwOS0zaC0uMzMxTDEwIDE0TDguODQzIDkuOTMzTDguMzA5IDExSDV2LTFoMi42OTFMOSA3bDEuMDY4IDMuNzEzTDEwLjY0IDloMS42NjlsLjQ4Ny45NzNMMTQgNGwyIDhsLjY0LTJIMTl2MWgtMS42NHoiLz48L3N2Zz4=",
+            "descripcion" : "Control y proteccion de los sistemas en tiempo real"
+        },
+        {
+            "titulo" : "Capacitación",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IiM3YzNhZWQiIGQ9Ik0xNS4wOSAxMi43OWExIDEgMCAwIDAtLjA4Ni0xLjYzOEwxNSA1LjMzTDE0IDZ2NS4xNWExIDEgMCAwIDAtLjA5MiAxLjYyOWwtLjM3OC41MDJhMi40OCAyLjQ4IDAgMCAwLS41MyAxLjQ5OHYxLjIyMmguODE1YS44OC44OCAwIDAgMCAuODUzLS42NjRsLjMzMS0xLjMzNnYyaDF2LTEuMjFhMi41IDIuNSAwIDAgMC0uNTM0LTEuNTA1ek04IDBMMCA0bDggNWw4LTV6Ii8+PHBhdGggZmlsbD0iIzdjM2FlZCIgZD0iTTggMTBMMyA2LjY3djEuNzFDMyA5LjI5IDUuOTQgMTIgOCAxMnM1LTIuNzEgNS0zLjYyVjYuNjd6Ii8+PC9zdmc+",
+            "descripcion" : "Formacion en ciberseguridad para los equipos de trabajo"
+        },
+        {
+            "titulo" : "Datos Sensibles",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNDggNDgiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzdjM2FlZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjQiPjxwYXRoIGQ9Ik0zOSAyOHY0aC04di00YTQgNCAwIDAgMSA4IDBtLTEzIDRoMTh2MTJIMjZ6bTYtMjZoNmE0IDQgMCAwIDEgNCA0djZNMTYgNDJoLTZhNCA0IDAgMCAxLTQtNHYtNk0yMiA4djEyYzAgMi4yMS00LjAzIDQtOSA0cy05LTEuNzktOS00VjgiLz48cGF0aCBkPSJNMjIgMTRjMCAyLjIxLTQuMDMgNC05IDRzLTktMS43OS05LTRtMTgtNmMwIDIuMjEtNC4wMyA0LTkgNHMtOS0xLjc5LTktNHM0LjAzLTQgOS00czkgMS43OSA5IDQiLz48L2c+PC9zdmc+",
+            "descripcion" : "Seguridad en la transferencia y el almacenamiento usando encriptacion de datos sensibles"
+        },
+        {
+            "titulo" : "Servidores Seguros",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM3YzNhZWQiIGQ9Ik0zIDFoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFIM2ExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDEtMW0wIDhoMTZhMSAxIDAgMCAxIDEgMXYuNjdsLTIuNS0xLjExbC02LjUgMi44OFYxNUgzYTEgMSAwIDAgMS0xLTF2LTRhMSAxIDAgMCAxIDEtMW0wIDhoOGMuMDYgMi4yNSAxIDQuNCAyLjQ2IDZIM2ExIDEgMCAwIDEtMS0xdi00YTEgMSAwIDAgMSAxLTFNOCA1aDFWM0g4em0wIDhoMXYtMkg4em0wIDhoMXYtMkg4ek00IDN2MmgyVjN6bTAgOHYyaDJ2LTJ6bTAgOHYyaDJ2LTJ6bTEzLjUtN2w0LjUgMnYzYzAgMi43OC0xLjkyIDUuMzctNC41IDZjLTIuNTgtLjYzLTQuNS0zLjIyLTQuNS02di0zem0wIDEuOTRMMTUgMTUuMDZ2Mi42NmMwIDEuNTQgMS4wNyAyLjk4IDIuNSAzLjM0eiIvPjwvc3ZnPg==",
+            "descripcion" : "Estructuramiento de servidores priorizando la seguridad de la red dentro de la organizacion"
+        }
+    ]
+
+}
