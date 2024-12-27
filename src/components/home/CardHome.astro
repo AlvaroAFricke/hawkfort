@@ -1,5 +1,5 @@
 ---
-import Data from "../../data.json"
+import Data from "../../DATA/data-es.json"
 const urlHome = Data.Navegacion[3].url; 
 ---
 
@@ -20,6 +20,6 @@ const urlHome = Data.Navegacion[3].url;
             class="mt-8 px-6 py-2 text-md font-semibold bg-orange-600 text-orange-100 rounded-lg hover:bg-orange-300 hover:text-orange-700 transition-colors duration-300"
             href={urlHome}
         >
-            Saber Más
+            {Data.Home.boton}
         </a>
 </div>

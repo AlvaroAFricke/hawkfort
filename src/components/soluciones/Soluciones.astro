@@ -1,6 +1,6 @@
 ---
 import CardSol from "./CardSol.astro";
-import Data from "../../data.json";
+import Data from "../../DATA/data-es.json"
 ---
 
 <br/><br /><br>
@@ -9,7 +9,7 @@ import Data from "../../data.json";
     <h1
       class="md:text-6xl text-5xl font-bold mb-4 pb-4 bg-gradient-to-r from-cyan-500 via-cyan-300 to-cyan-500 text-transparent bg-clip-text"
     >
-      Soluciones
+      {Data.Soluciones.titulo}
     </h1>
 
     <div class="grid grid-cols-2 gap-2 md:grid-cols-2 md:gap-3 lg:gap-5 lg:grid-cols-3 mt-5">

@@ -1,48 +1,83 @@
 {
     "Navegacion" : [
         {
-            "title" : "Home",
+            "titulo" : "Home",
             "url" : "/hawkfort/#Home"
         },
         {
-            "title" : "About",
+            "titulo" : "About",
             "url" : "/hawkfort/#About"
         },
         {
-            "title" : "Soluciones",
+            "titulo" : "Soluciones",
             "url" : "/hawkfort/#Soluciones"
         },
         {
-            "title" : "Contacto",
+            "titulo" : "Contacto",
             "url" : "/hawkfort/#Contacto"
         }
     ],
 
-    "About" : {
+    "Home" : {
 
-        "title" : "Sobre Nosotros",
-        "descripcion": "Somos una consultora enfocada y comprometida en la anticipación, detección y protección de activos digitales"
+        "boton" : "Saber Más"
 
     },
 
-    "AboutItems" : [
+    "About" : {
+        "titulo" : "Sobre Nosotros"
+    },
+
+    "AboutUno" : {
+
+        "titulo" : "Sobre Nosotros",
+        "descripcionUno" : "Somos una",
+        "resaltado" : "consultora",
+        "descripcionDos" : "enfocada y comprometida en la anticipación, detección y protección de activos digitales"
+
+    },
+
+    "AboutCardsUno" : [
         {
-            "texto" : "Solida experiencia y trayectoria.",
-            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+            "titulo" : "+20 Años de Experiencia",
+            "texto" : "Hace años dedicados a la seguridad informatica, tanto fisica como a nivel de software.",
+            "tiempo" : "+20",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzA1OTY2OSIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMTIgMTZWN20wIDRjMC0zIDAtNi03LTZjMCAzIDAgNiA3IDZabS04IDVoMTZtLTIgMGwtMiA3SDhsLTItN202LTljMC0zIDAtNiA3LTZjMCAzIDAgNi03IDZaIi8+PC9zdmc+"
         },
         {
-            "texto" : "Equipo actualizado en las últimas tecnologias.",
-            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
-        },
-        {
-            "texto" : "Protección de todo tipo de información y organización.",
-            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
-        },
-        {
-            "texto" : "Solución personalizada y a medida.",
-            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM2NWEzMGQiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+            "titulo" : "Estudios especializados",
+            "texto" : "Amplio conocimiento en las ultimas tecnologias y seguridad informatica.",
+            "tiempo" : "+5",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGZpbGw9IiMwNTk2NjkiIGQ9Ik0xMi42MSA4LjQxYTUuNSA1LjUgMCAwIDEtMS40NTQtLjQyNEE2MCA2MCAwIDAgMSAxNS42MSA0LjQzbC4xLS4wN2wuMDYtLjExYTIuOTI0IDIuOTI0IDAgMCAwLS43NjUtMy40OTZhMi45MiAyLjkyIDAgMCAwLTMuNDU5LS4zNzZsLS4xMjYuMTMzQTU1IDU1IDAgMCAxIDYuNTEyIDYuNDFhNTAgNTAgMCAwIDEtNi4wMTggNC41OTJMLjEgMTEuMjV2LjIzYTQuNTMgNC41MyAwIDAgMCAuNyAzLjY1NUEyLjgzIDIuODMgMCAwIDAgMy4wMDcgMTZhMiAyIDAgMCAwIDEuNzc4LS45MDJDNS4wMyAxNC43OSA2Ljg1IDEyLjQ5IDguNzkgMTAuMzljLjI2OC40NjQuNDc2IDEuMDAzLjU5NCAxLjU3NWE2LjMgNi4zIDAgMCAxLS4zOTkgMy4wNzhMMTAuNjcgMTNMMTIgMTRhMTIuMSAxMi4xIDAgMCAwLS41ODQtMy4zMzZhNS4zIDUuMyAwIDAgMC0uOTE1LTEuMjE0Yy40MDYuMzQ2Ljg3MS42NDMgMS4zNzIuODc0Yy45NC4zMzggMS45ODkuNTcyIDMuMDc2LjY3MkwxNCA5LjczTDE2IDhhOSA5IDAgMCAxLTIuNzc3LjQzMXEtLjMyNCAwLS42NDItLjAyMnptLS40NS03LjIzYTEuOSAxLjkgMCAwIDEgLjg0Mi0uMTk0Yy41MDYgMCAuOTY2LjE5NiAxLjMwOS41MTZhMS45MyAxLjkzIDAgMCAxIC41OTUgMi4xOTJjLS40ODYuMzA3LTIuMzQ2IDEuNzE3LTQuMTQ2IDMuMzA3YTIgMiAwIDAgMC0uNjY4LTEuMjk4YTEuNiAxLjYgMCAwIDAtMS4yNC0uMzcyQTU4IDU4IDAgMCAwIDEyLjE2IDEuMThNMi43IDExLjgxYS40Ni40NiAwIDAgMSAuMjYyLS4wODJsLjA0LjAwMmguMDY4Yy4xNzkuMDUyLjMzNC4xNDIuNDYxLjI2MWwtLjg3MS43MTlhMS4zIDEuMyAwIDAgMS0uMTE5LS43MTZhLjMzLjMzIDAgMCAxIC4xNTgtLjE4M3pNNCAxNC41YTEgMSAwIDAgMS0xLjAwNS40OTlhMS44NSAxLjg1IDAgMCAxLTEuNDg1LS41NGEzLjQzIDMuNDMgMCAwIDEtLjU4My0xLjkyMnEuMDAxLS4zNzcuMDc3LS43M2wuNzA2LS40NTdjLS4wOTQuMTQtLjE2NC4zMDQtLjE5OS40ODFhMyAzIDAgMCAwIC41MzUgMS45NThsLjM1NC40NGwxLjctMS40YTIuNCAyLjQgMCAwIDEtLjEwNiAxLjY4NXptLjg2LTIuNDVhMi44MyAyLjgzIDAgMCAwLTEuNTQtMS4yNzRjLS4wNzEtLjAxMi0uMTMtLjAxNi0uMTktLjAxNnMtLjExOS4wMDQtLjE3Ny4wMWExLjYgMS42IDAgMCAwLS4zNSAwYTQ1IDQ1IDAgMCAwIDMuOTg4LTMuMDUyYy4zOTguMDcxLjgxMi4yNSAxLjEzMS41MzNjLjI5Ny4zMTMuNDguNzM5LjQ4IDEuMjA5bC0uMDAyLjA5NGE1NCA1NCAwIDAgMC0zIDMuNTA2YTIuOCAyLjggMCAwIDAtLjM1Ny0xLjAyM3oiLz48L3N2Zz4="
         }
     ],
+
+    "AboutDos" : {
+
+        "descripcionUno" : "Contamos con una cartera activa de ",
+        "resaltado" : "clientes ",
+        "descripcionDos" : "en constante crecimiento"
+
+    },
+
+    "AboutCardsDos" : [
+        {
+            "titulo" : "Clientes Internacionales",
+            "texto" : "Actualmente damos soporte y capacitación a clientes internacionales.",
+            "tiempo" : "+5",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzA1OTY2OSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiPjxwYXRoIGQ9Ik0zIDEyYTkgOSAwIDEgMCAxOCAwYTkgOSAwIDAgMC0xOCAwbS42LTNoMTYuOE0zLjYgMTVoMTYuOCIvPjxwYXRoIGQ9Ik0xMS41IDNhMTcgMTcgMCAwIDAgMCAxOG0xLTE4YTE3IDE3IDAgMCAxIDAgMTgiLz48L2c+PC9zdmc+"
+        },
+        {
+            "titulo" : "+30 Clientes nos Locales",
+            "texto" : "Nuestra cartera cuenta con más de 30 clientes locales que respaldan nuestro trabajo y compromiso.",
+            "tiempo" : "+30",
+            "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNjQwIDUxMiI+PHBhdGggZmlsbD0iIzA1OTY2OSIgZD0iTTQ4OCAxOTJIMzM2djU2YzAgMzkuNy0zMi4zIDcyLTcyIDcycy03Mi0zMi4zLTcyLTcyVjEyNi40bC02NC45IDM5QzEwNy44IDE3Ni45IDk2IDE5Ny44IDk2IDIyMC4ydjQ3LjNsLTgwIDQ2LjJDLjcgMzIyLjUtNC42IDM0Mi4xIDQuMyAzNTcuNGw4MCAxMzguNmM4LjggMTUuMyAyOC40IDIwLjUgNDMuNyAxMS43TDIzMS40IDQ0OEgzNjhjMzUuMyAwIDY0LTI4LjcgNjQtNjRoMTZjMTcuNyAwIDMyLTE0LjMgMzItMzJ2LTY0aDhjMTMuMyAwIDI0LTEwLjcgMjQtMjR2LTQ4YzAtMTMuMy0xMC43LTI0LTI0LTI0bTE0Ny43LTM3LjRMNTU1LjcgMTZDNTQ2LjkuNyA1MjcuMy00LjUgNTEyIDQuM0w0MDguNiA2NEgzMDYuNGMtMTIgMC0yMy43IDMuNC0zMy45IDkuN0wyMzkgOTQuNmMtOS40IDUuOC0xNSAxNi4xLTE1IDI3LjFWMjQ4YzAgMjIuMSAxNy45IDQwIDQwIDQwczQwLTE3LjkgNDAtNDB2LTg4aDE4NGMzMC45IDAgNTYgMjUuMSA1NiA1NnYyOC41bDgwLTQ2LjJjMTUuMy04LjkgMjAuNS0yOC40IDExLjctNDMuNyIvPjwvc3ZnPg=="
+        }
+    ],
+
+    "Soluciones" : {
+        "titulo" : "Soluciones"
+    },
 
     "SolucionesItems" : [
         {
@@ -75,6 +110,18 @@
             "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiM3YzNhZWQiIGQ9Ik0zIDFoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFIM2ExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDEtMW0wIDhoMTZhMSAxIDAgMCAxIDEgMXYuNjdsLTIuNS0xLjExbC02LjUgMi44OFYxNUgzYTEgMSAwIDAgMS0xLTF2LTRhMSAxIDAgMCAxIDEtMW0wIDhoOGMuMDYgMi4yNSAxIDQuNCAyLjQ2IDZIM2ExIDEgMCAwIDEtMS0xdi00YTEgMSAwIDAgMSAxLTFNOCA1aDFWM0g4em0wIDhoMXYtMkg4em0wIDhoMXYtMkg4ek00IDN2MmgyVjN6bTAgOHYyaDJ2LTJ6bTAgOHYyaDJ2LTJ6bTEzLjUtN2w0LjUgMnYzYzAgMi43OC0xLjkyIDUuMzctNC41IDZjLTIuNTgtLjYzLTQuNS0zLjIyLTQuNS02di0zem0wIDEuOTRMMTUgMTUuMDZ2Mi42NmMwIDEuNTQgMS4wNyAyLjk4IDIuNSAzLjM0eiIvPjwvc3ZnPg==",
             "descripcion" : "Estructuramiento de servidores priorizando la seguridad de la red dentro de la organizacion"
         }
-    ]
+    ],
+    "Contacto" : {
+        "nombre" : "Nombre",
+        "apellido" : "Apellido",
+        "correo" : "Correo",
+        "empresa" : "Empresa",
+        "mensaje" : "Mensaje",
+        "boton" : "Enviar Mensaje"
+    },
+
+    "Footer" : {
+        "texto" : "© 2024 Hawkfort Security. Todos los derechos reservados."
+    }
 
 }

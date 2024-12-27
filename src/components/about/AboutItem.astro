@@ -1,14 +1,32 @@
 ---
 interface Props {
-    texto: string;
-    icono: string;
+    titulo : string;
+    texto : string; 
+    tiempo : string;
+    icono : string;
 }
-const {texto, icono} = Astro.props;
+const {titulo, texto, tiempo, icono} = Astro.props;
 ---
 
-<div class="flex flex-row m-0 p-0 items-center justify-start">
-  <img src={icono} alt="" class="size-16" srcset="">
-  <p class="text-xl ml-2 md:text-2xl text-left text-orange-100">
-    {texto}
+
+<div
+class="w-64 bg-white py-12 px-4 relative overflow-hidden flex flex-col items-center"
+>
+<div
+  class="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7"
+>
+  <p class="absolute bottom-6 left-5 font-bold text-white text-2xl">
+    {tiempo}
   </p>
+</div>
+
+<!-- Imagen de la card -->
+ <img src={icono} class="size-16" alt="">
+
+<h1 class="font-bold text-xl my-2 text-slate-900">
+  {titulo}
+</h1>
+<p class="text-sm text-pretty text-slate-700 leading-6">
+  {texto}
+</p>
 </div>

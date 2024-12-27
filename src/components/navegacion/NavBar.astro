@@ -1,6 +1,6 @@
 ---
 import NavItem from "./NavItem.astro";
-import Data from "../../data.json";
+import Data from "../../DATA/data-es.json";
 ---
 
 <nav
@@ -16,7 +16,7 @@ import Data from "../../data.json";
       >
         {
           Data.Navegacion.map((elemento) => (
-            <NavItem title={elemento.title} url={elemento.url} />
+            <NavItem title={elemento.titulo} url={elemento.url} />
           ))
         }
         <!-- <button class="px-5">Es/In</button> -->
