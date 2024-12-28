@@ -1,73 +1,84 @@
 ---
-import Data from "../../DATA/data-es.json"
+import Data from "../../DATA/data-es.json";
 ---
 
-<br>
-<section class="relative z-10 max-w-4xl md:mx-auto mx-4 mt-10 p-8 shadow-lg rounded-lg ring-8 ring-cyan-800 bg-gradient-to-tl from-stone-800 via-cyan-950 to-stone-800">
-  <h2 class="text-center md:text-6xl text-4xl font-bold mb-4 pb-4 bg-gradient-to-r from-cyan-700 via-cyan-400 to-cyan-700 text-transparent bg-clip-text">Contáctanos</h2>
-  
+<br />
+<section
+  class="relative z-10 max-w-4xl md:mx-auto mx-4 mt-10 p-8 shadow-lg rounded-lg ring-8 ring-cyan-800 bg-gradient-to-tl from-stone-800 via-cyan-950 to-stone-800"
+>
+  <h2
+    class="text-center md:text-6xl text-4xl font-bold mb-4 pb-4 bg-gradient-to-r from-cyan-700 via-cyan-400 to-cyan-700 text-transparent bg-clip-text"
+  >
+    Contáctanos
+  </h2>
+
   <form id="contactForm" class="space-y-6">
-    <!-- Nombre y Apellido -->
+    
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div>
-        <label for="nombre" class="block text-lg font-medium text-orange-300">{Data.Contacto.nombre}</label>
+        <label for="cliNombre" class="block text-lg font-medium text-orange-300"
+          >{Data.Contacto.nombre}</label
+        >
         <input
           type="text"
-          id="nombre"
-          name="user_name"
+          name="nombre"
           placeholder="Tu nombre"
           class="mt-1 w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
       </div>
       <div>
-        <label for="apellido" class="block text-lg font-medium text-orange-300">{Data.Contacto.apellido}</label>
+        <label for="cliApellido" class="block text-lg font-medium text-orange-300"
+          >{Data.Contacto.apellido}</label
+        >
         <input
           type="text"
-          id="apellido"
-          name="user_lastname"
+          name="apellido"
           placeholder="Tu apellido"
           class="mt-1 w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
       </div>
     </div>
 
-    <!-- Email -->
+
     <div>
-      <label for="email" class="block text-lg font-medium text-orange-300">{Data.Contacto.correo}</label>
+      <label for="cliEmail" class="block text-lg font-medium text-orange-300"
+        >{Data.Contacto.correo}</label
+      >
       <input
         type="email"
-        id="email"
-        name="user_email"
+        name="email"
         placeholder="tucorreo@ejemplo.com"
         class="mt-1 w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
     </div>
 
-    <!-- Empresa -->
+  
     <div>
-      <label for="empresa" class="block text-lg font-medium text-orange-300">{Data.Contacto.empresa}</label>
+      <label for="cliEmpresa" class="block text-lg font-medium text-orange-300"
+        >{Data.Contacto.empresa}</label
+      >
       <input
         type="text"
-        id="empresa"
-        name="user_company"
+        name="empresa"
         placeholder="Nombre de tu empresa"
         class="mt-1 w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
     </div>
 
-    <!-- Mensaje -->
+  
     <div>
-      <label for="mensaje" class="block text-lg font-medium text-orange-300">{Data.Contacto.mensaje}</label>
+      <label for="cliMensaje" class="block text-lg font-medium text-orange-300"
+        >{Data.Contacto.mensaje}</label
+      >
       <textarea
-        id="mensaje"
-        name="user_message"
+        name="mensaje"
         rows="5"
         placeholder="Escribí tu mensaje aquí..."
         class="mt-1 w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
       ></textarea>
     </div>
 
-    <!-- Botón de enviar -->
+
     <div class="flex justify-center">
       <button
         type="submit"
