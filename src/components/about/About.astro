@@ -20,14 +20,14 @@ import Data from "../../DATA/data-es.json";
     >
       <p>
         {Data.AboutUno.descripcionUno}
-        <span class="font-bold text-orange-300">{Data.AboutUno.resaltado}</span>
+        <span class="font-bold text-red-400">{Data.AboutUno.resaltado}</span>
         {Data.AboutUno.descripcionDos}
       </p>
     </div>
 
     <div class="relative">
       <ul
-        class="top-0 left-0 w-full h-full bg-orange-300 text-white text-center lg:rounded-l-2xl flex flex-row space-x-4 justify-center"
+        class="top-0 left-0 w-full h-full bg-neutral-500 text-white text-center lg:rounded-l-2xl flex flex-row space-x-4 justify-center"
       >
       {
         Data.AboutCardsUno.map((elemento) => (
@@ -46,7 +46,7 @@ import Data from "../../DATA/data-es.json";
   <div class="grid grid-cols-1 lg:grid-cols-2 mb-6">
     <div class="relative order-2 lg:order-1">
       <ul
-        class="top-0 left-0 w-full h-full bg-orange-300 text-white text-center lg:rounded-r-2xl flex flex-row space-x-4 justify-center"
+        class="top-0 left-0 w-full h-full bg-neutral-500 text-white text-center lg:rounded-r-2xl flex flex-row space-x-4 justify-center"
       >
       {
         Data.AboutCardsDos.map((elemento) => (
@@ -65,12 +65,10 @@ import Data from "../../DATA/data-es.json";
     >
       <p>
         {Data.AboutDos.descripcionUno}
-        <span class="font-bold text-orange-300">{Data.AboutDos.resaltado}</span>
+        <span class="font-bold text-red-400">{Data.AboutDos.resaltado}</span>
         {Data.AboutDos.descripcionDos}
       </p>
     </div>
-
-    
   </div>
     
   </div>
